@@ -1,0 +1,104 @@
+.poster {
+  width: 100%;
+  color: #fff;
+  height: 560px;
+}
+
+.poster h1 {
+  font-weight: normal;
+  margin-top: 100px;
+  margin-bottom: 5px;
+  max-width: 80%;
+}
+
+.poster p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 100;
+  max-width: 80%;
+  margin-bottom: 60px;
+}
+
+.transparentButton {
+  background: rgba(#fff, 0.1);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.04);
+  padding: 17px 84px;
+  margin-right: 40px;
+  color: white;
+}
+
+.transparentButton:hover {
+  background: rgba(#fff, 0.2);
+}
+
+.whiteButton {
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.04);
+  padding: 17px 34px;
+  color: $colorTextPrimary;
+  margin-right: 40px;
+}
+
+.whiteButton:hover {
+  background: $colorBackground;
+}
+
+.sliderWrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.banner {
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  white-space: normal;
+  transition: margin 0.3s;
+}
+
+.posterImage {
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+}
+
+.posterImage img {
+  height: 500px;
+}
+
+.wrapperArrows {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  z-index: 4;
+}
+
+.arrowRight,
+.arrowLeft {
+  display: inline-block;
+  background: rgba(#fff, 0.2) center no-repeat;
+  background-size: 40%;
+  top: 50%;
+  width: 50px;
+  margin: 0 5px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background 0.1s;
+  z-index: 3;
+}
+
+.arrowRight:hover,
+.arrowLeft:hover {
+  background-color: rgba(#fff, 0.3);
+}
+
+.arrowRight {
+  background-image: url('src/shared/components/global/slider/icon-next.svg');
+}
+
+.arrowLeft {
+  background-image: url('src/shared/components/global/slider/icon-prev.svg');
+  background-color: transparent;
+}

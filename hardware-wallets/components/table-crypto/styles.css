@@ -1,0 +1,85 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.table thead {
+  text-align: center;
+  color: $colorTextPrimary;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.table thead td {
+  padding-bottom: 20px;
+}
+
+.table tfoot {
+  text-align: center;
+}
+
+.table tfoot td {
+  padding: 20px;
+}
+
+.table tbody tr:hover {
+  background: $colorBackground;
+}
+
+.table tbody td {
+  padding: 20px;
+  border-top: solid 1px #edeef1;
+}
+
+.table thead td:first-child {
+  text-align: left;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: $colorTextPrimary;
+}
+
+.ticker {
+  font-size: 18px;
+  font-weight: 100;
+  color: $colorTextPrimary;
+  margin-left: 0.2em;
+}
+
+.dotIcon {
+  width: 8px;
+  height: 8px;
+  background: $colorTextPrimary;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.storeWrapper,
+.dotWrapper {
+  text-align: center;
+}
+
+.storeWrapper a {
+  color: $colorBlue;
+  margin: 0 3px;
+}
+
+.fromText {
+  font-weight: 100;
+  font-size: 14px;
+  color: $colorTextPrimary;
+  margin-bottom: 10px;
+}
+
+.iconCol {
+  width: 20px;
+  padding-right: 0 !important;
+}
+
+.iconCurrency {
+  font-size: 32px;
+  color: $colorBluePrimary;
+}

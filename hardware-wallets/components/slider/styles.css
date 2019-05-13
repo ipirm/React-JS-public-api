@@ -1,0 +1,54 @@
+.wrapper {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.textCenter {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
+.textCenter h2 {
+  color: $colorTextPrimary;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.textCenter p {
+  color: $colorTextPrimary;
+  font-weight: 100;
+}
+
+.buyButton {
+  padding: 18px 45px;
+}
+
+.priceWrapperBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 600;
+  color: $colorTextPrimary;
+}
+
+.linkStore {
+  color: $colorBlue;
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 7px;
+}

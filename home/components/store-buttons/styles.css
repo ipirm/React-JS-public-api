@@ -1,0 +1,45 @@
+.buttonsWrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.buttonsWrapper > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonsWrapper > div > a {
+  width: 130px;
+  margin: 10px 20px 0 0;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.alternative {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.buttonsWrapper > div:hover > .alternative {
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  opacity: 1;
+}
+
+.buttonsWrapper > div > a > button {
+  width: 100%;
+  text-align: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.buttonsWrapper > div > a img {
+  vertical-align: top;
+}

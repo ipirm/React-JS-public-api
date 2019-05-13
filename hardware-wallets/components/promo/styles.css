@@ -1,0 +1,29 @@
+.wrapper {
+  background: $colorBackground;
+  padding: 80px 0;
+  margin-bottom: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.block {
+  text-align: center;
+}
+
+.block h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: $colorTextPrimary;
+}
+
+.block p {
+  display: block;
+  margin: auto;
+  max-width: 70%;
+  color: $colorTextPrimary;
+  font-weight: 100;
+}

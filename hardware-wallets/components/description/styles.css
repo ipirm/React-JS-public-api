@@ -1,0 +1,55 @@
+.wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title {
+  color: $colorTitlePrimary;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.text {
+  color: $colorTextPrimary;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.grid {
+  margin-top: 100px;
+}
+
+.wrapperGrid {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.wrapperGrid div {
+  width: 50%;
+}
+
+.wrapperGrid > div:first-child {
+  margin: 0 40px;
+}
+
+.wrapperGrid img {
+  margin-bottom: 0;
+}
+
+.wrapperGrid h3 {
+  font-size: 21px;
+  color: #424242;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.wrapperGrid p {
+  color: $colorTextPrimary;
+  font-size: 14px;
+  font-weight: 100;
+}

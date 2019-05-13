@@ -1,0 +1,83 @@
+.poster {
+  width: 100%;
+  color: white;
+  padding-top: 20px !important;
+  overflow: hidden;
+}
+
+.poster h1 {
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+
+.poster p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 100;
+  max-width: 90%;
+  margin-bottom: 40px;
+}
+
+.webWalletImage {
+  width: 687px;
+  height: 514px;
+  background: url(./poster.png) no-repeat;
+  background-size: 100%;
+  float: right;
+  margin-top: 40px;
+  margin-right: -20px;
+}
+
+.blocks {
+  display: block;
+  margin-bottom: 70px;
+}
+
+.downloadNow {
+  font-size: 26px !important;
+  font-weight: 100;
+}
+
+.downloadNow img {
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.whiteButton {
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.04);
+  padding: 17px 34px;
+  color: $colorTextPrimary;
+  margin-right: 40px;
+}
+
+.whiteButton:hover {
+  background: $colorBackground;
+}
+
+.trustpilot {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 230px;
+}
+
+.trustpilot img {
+  width: 100%;
+}
+
+.storeButtons {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.storeButtons img {
+  height: 44px;
+  margin-right: 20px;
+}
+
+.storeButtons > div {
+  margin-bottom: 10px;
+}

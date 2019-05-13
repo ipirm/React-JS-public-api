@@ -1,0 +1,66 @@
+.wrapper {
+  position: relative;
+}
+
+.wrapper h2 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.wrapper h2 b {
+  font-weight: bold;
+}
+
+.wrapperContainer {
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 50px;
+  white-space: nowrap;
+}
+
+.slideRow {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: margin 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.arrowRight,
+.arrowLeft {
+  position: absolute;
+  background: $colorBackground center no-repeat;
+  top: 50%;
+  margin-top: -55px;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background 0.1s;
+  z-index: 3;
+}
+
+.arrowRight:hover,
+.arrowLeft:hover {
+  background-color: $colorTitlePrimary;
+}
+
+.arrowRight {
+  background-image: url('src/shared/components/global/slider/icon-next.svg');
+  right: -45px;
+}
+
+.arrowLeft {
+  background-image: url('src/shared/components/global/slider/icon-prev.svg');
+  left: -45px;
+}
+
+.allApps {
+  font-size: 14px;
+}
+
+.allApps img {
+  width: 12px;
+  vertical-align: baseline;
+  margin-left: 10px;
+}

@@ -1,0 +1,44 @@
+.poster {
+  width: 100%;
+  color: white;
+  padding-top: 100px;
+}
+
+.poster h1 {
+  font-size: 38px;
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 35px;
+  max-width: 80%;
+}
+
+.poster p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+}
+
+.hardwareWalletsImage {
+  width: 437px;
+  height: 454px;
+  background: url(./harware-wallets.png);
+  background-size: 100%;
+  float: right;
+}
+
+.blocks {
+  display: block;
+  margin-bottom: 100px;
+}
+
+.buttonsWrapper {
+  margin-top: 35px;
+}
+
+.whiteButton {
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.04);
+  padding: 17px 34px;
+  color: $colorTextPrimary;
+  margin-right: 40px;
+}
